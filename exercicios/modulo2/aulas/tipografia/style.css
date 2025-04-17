@@ -1,0 +1,7 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+body
+{
+    background-image: linear-gradient(to right,#2B3328, #53C020 90%)
+}

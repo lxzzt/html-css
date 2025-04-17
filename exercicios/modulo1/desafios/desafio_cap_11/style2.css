@@ -1,0 +1,73 @@
+body 
+{
+    background-color: #b43737a4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container principal que inclui tudo */
+.main-header 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Estilo para o container do logo */
+.header 
+{
+    display: flex;
+    align-items: center;
+}
+
+/* Estilo para a imagem do logo */
+.ytl 
+{
+    height: 60px;
+    width: auto;
+    border-radius: 27px;
+}
+
+/* Estilo para o texto do logo */
+.yt a 
+{
+    color: rgb(251, 251, 251);
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+/* Container do menu */
+.header_menu 
+{
+    flex-grow: 1; /* Para ocupar o espaço disponível */
+    display: flex;
+    justify-content: center; /* Centraliza o menu horizontalmente */
+}
+
+/* Lista de navegação */
+ol 
+{
+    display: flex;
+    list-style: none;
+    gap: 55px;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+/* Links de navegação */
+li a 
+{
+    display: block;
+    color: white;
+    background-color: gray;
+    border-radius: 10px;
+    padding: 7px;
+    text-decoration: none;
+}

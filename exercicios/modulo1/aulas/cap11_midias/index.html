@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midias</title>
+</head>
+<body>
+    <h1>Midias no seu site</h1>
+    <h2>Midias dinamicas</h2>
+    <h3>tente abrit esse site em varios dispositivos diferentes</h3>
+    <p>a tag &lt;picture&gt; indica que vai carregar uma imagem,e dentro da tag &lt;picture&gt; a tag &lt;sourse&gt; indica qual imagem sera carregada primeiro,sempre na ordem crescente a menor foto para a maior,sendo a maior foto usada na tag &lt;img&gt;</p>
+    <p>exemplo</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagem/img_p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagem/img_m.png" type="image/png">
+        <img  src="imagem/img_g.png" alt="imagem_flexivel">
+    </picture>
+    <audio preload="metadata" controls>
+        <source src="midia/Hollow Knight OST - City of Tears.mp3" type="audio/mpeg">
+    </audio>
+</body>
+</html>

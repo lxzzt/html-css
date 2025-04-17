@@ -1,0 +1,35 @@
+@charset "UTF-8";
+h1#principal
+{
+    text-align: center;
+    background-color: #00ffbb;
+
+}
+.learning
+body
+{
+    background-color: #ffffff;
+}
+h1
+{
+    color: rgb(8, 137, 94);
+}
+h2.basico
+{
+    color: #0bab21;
+    text-shadow: 2px 2px 2px white;
+}
+h2.intermediario
+{
+    color: #b6c211;
+    text-shadow: 2px 2px 2px white;
+}
+h2.avancado
+{
+    color: rgb(207, 21, 21);
+    text-shadow: 2px 2px 2px white;
+}
+p
+{
+    color: rgb(0, 0, 0);
+}
